@@ -1,0 +1,128 @@
+body {
+    background-color: #ccd89b;
+    padding: 0px;
+    margin: 0px;
+}
+
+#home_page {
+    background-color: #d4f6cc;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 45vh;
+    width: 50vw;
+
+}
+
+#header {
+    background-color: #d4f6cc;
+    height: 8vh;
+    padding-left: 50px;
+    width: 101vw;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+#homepage_link {
+    text-decoration: none;
+    color: white;
+}
+
+#appreq_link {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+
+#approved_link {
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+}
+
+#disapproved_link {
+    text-decoration: none;
+    color: rgb(11, 10, 10);
+}
+
+
+
+#overview_link {
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+}
+
+#submit_link {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+
+#view_link {
+    text-decoration: none;
+    color: rgb(6, 5, 5);
+}
+
+#status_link {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+#update_link {
+    text-decoration: none;
+    color: rgb(16, 15, 15);
+}
+
+#logout_link {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+#left_sidebar {
+    margin-top: 50px;
+    width: 13vw;
+    height: 30vh;
+    display: inline-block;
+}
+
+#left_sidebar table tr {
+    background-color: #0096FF;
+    color: white;
+    font-size: 18px;
+}
+
+#left_sidebar table tr:hover {
+    background-color: #D4F6CC;
+    font-size: 20px;
+    color: black;
+}
+
+#logout_link {
+    text-decoration: none;
+    color: white;
+}
+
+
+#logout_link:hover {
+    background-color: #d4f6cc;
+    color: black;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
